@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #d1d1d1;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-width: 120px;
+  }
+  
+  .navbar-nav {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #464646 !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #5e2129 !important;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-brand img {
+      max-width: 80px;
+    }
+  }
+  

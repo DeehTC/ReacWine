@@ -1,16 +1,14 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import React from 'react';
+import ControlledCarousel from '../components/ControlledCarousel'; // Ensure the path is correct
+import Products from '../components/Products'; // Import the Products component
 
-export function Home( props ) {
-    document.title = "The best drinks in town"
-    return(
-        <Container>
-            <Row>
-                <Col>
-                    <h2>Home</h2>
-                </Col>
-            </Row>
-        </Container>
-    )
+document.title = "Valley Wines";
+
+export function Home() {
+  return (
+    <div>
+      <ControlledCarousel /> {/* Add the Carousel component here */}
+      <Products /> {/* Add the Products component here */}
+    </div>
+  );
 }

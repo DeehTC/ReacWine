@@ -1,0 +1,20 @@
+.carousel-caption * {
+    opacity: 0;
+  }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.138);
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: #fff;
+}
+
+  
